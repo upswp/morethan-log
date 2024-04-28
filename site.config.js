@@ -10,12 +10,12 @@ const CONFIG = {
     github: "upswp",
     instagram: "upswp",
   },
-  // projects: [
-  //   {
-  //     name: `morethan-log`,
-  //     href: "https://github.com/morethanmin/morethan-log",
-  //   },
-  // ],
+  projects: [
+    {
+      name: `THXSTORE`,
+      href: "https://github.com/upswp/THXSTORE",
+    },
+  ],
   // blog setting (required)
   blog: {
     title: "기록을 통한 고찰",
