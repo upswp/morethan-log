@@ -8,7 +8,7 @@ const CONFIG = {
     email: "tkddnsos@gmail.com",
     linkedin: "sangwoo-park-097975199",
     github: "upswp",
-    instagram: "upswp",
+    instagram: "upsw.p",
   },
   projects: [
     {
