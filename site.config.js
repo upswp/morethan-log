@@ -2,23 +2,22 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "samuel.park",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "https://notion-avatar.vercel.app/api/img/eyJmYWNlIjoxLCJub3NlIjo0LCJtb3V0aCI6MTEsImV5ZXMiOjgsImV5ZWJyb3dzIjoyLCJnbGFzc2VzIjoxMiwiaGFpciI6NiwiYWNjZXNzb3JpZXMiOjAsImRldGFpbHMiOjAsImJlYXJkIjowLCJmbGlwIjowLCJjb2xvciI6InJnYmEoMjU1LCAwLCAwLCAwKSIsInNoYXBlIjoibm9uZSJ9", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "backend developer",
     bio: "스타트업에서 백엔드 개발자로 일하는 여정기를 다뤄봅니다.",
     email: "tkddnsos@gmail.com",
     linkedin: "sangwoo-park-097975199",
     github: "upswp",
-    instagram: "upsw.p",
   },
-  projects: [
-    {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
-    },
-  ],
+  // projects: [
+  //   {
+  //     name: `morethan-log`,
+  //     href: "https://github.com/morethanmin/morethan-log",
+  //   },
+  // ],
   // blog setting (required)
   blog: {
-    title: "개발여정기",
+    title: "기록을 통한 고찰",
     description: "개발 성장기에 대한 기록입니다.",
     theme: "auto"
   },
@@ -36,15 +35,15 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: false,
+    enable: true,
     config: {
-      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
+      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "G-CJDQQFMSSV",
     },
   },
   googleSearchConsole: {
-    enable: false,
+    enable: true,
     config: {
-      siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
+      siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "google-site-verification=nXdfs9y4HmngzQC3T5x3iWotbW8BlYbtLZJ44ic4Jqk",
     },
   },
   naverSearchAdvisor: {
